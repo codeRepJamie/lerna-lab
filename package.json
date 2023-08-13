@@ -6,7 +6,7 @@
   ],
   "scripts": {
     "test": "lerna run test --scope={@jamie/package-1,@jamie/package-2}",
-    "new-version": "lerna version --conventional-commits"
+    "new-version": "lerna version --conventional-commits --yes"
   },
   "dependencies": {},
   "devDependencies": {
