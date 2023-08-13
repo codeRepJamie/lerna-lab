@@ -5,7 +5,8 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "lerna run test --scope={@jamie/package-1,@jamie/package-2}"
+    "test": "lerna run test --scope={@jamie/package-1,@jamie/package-2}",
+    "new-version": "lerna version --conventional-commits"
   },
   "dependencies": {},
   "devDependencies": {
